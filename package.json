@@ -1,0 +1,14 @@
+{
+  "name": "condor-mcp",
+  "version": "0.1.0",
+  "description": "Stdio MCP server exposing a product-catalog search tool over SQLite",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.5.0"
+  }
+}
